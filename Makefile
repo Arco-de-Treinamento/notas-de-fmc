@@ -6,8 +6,8 @@ DARKMODE = -pdflatex="pdflatex %O '\def\darkmode{1} \input{%S}'"
 AUX_FILES = *.run.xml *.bbl *.listing _minted-*
 
 # ==== NOMES DOS ARQUIVOS ====
-DARKMODE_NAME  = Jubilado_DarkMode
-LIGHTMODE_NAME = Jubilado
+DARKMODE_NAME  = Notas_FMC_DarkMode
+LIGHTMODE_NAME = Notas_FMC
 
 .PHONY: default macros lightMode darkMode debug clean 
 
