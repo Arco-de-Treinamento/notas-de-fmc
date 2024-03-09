@@ -108,3 +108,29 @@ make clean
   👋 Feito por [JosManoel](https://github.com/JosManoel) com ☕ , 💊 , 💻 e mais um pouco de ☕.
 
 </div> 
+
+<!-- 
+For view the make version
+make -v
+
+Here are the commands:
+sudo apt install texlive-full
+
+For basic and some extra packages
+sudo apt install texlive
+
+For install biber bibtex (vai ser instalado no texlive-full)
+sudo apt-get install biber
+
+For check the pip version
+pip -v 
+
+For install pip
+sudo apt install python3-pip
+
+
+install pygments for snipts
+pip install Pygments
+
+install on ubuntu
+sudo apt install python3-pygments -->
