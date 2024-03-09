@@ -15,7 +15,7 @@ default: lightMode
 
 macros:
 	git submodule update --init --recursive
-	git submodule foreach git pull origin master
+	git submodule foreach git pull origin main
 
 lightMode: macros
 	latexmk $(TEX_FLAGS) -jobname=$(LIGHTMODE_NAME) 
